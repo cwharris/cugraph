@@ -339,7 +339,7 @@ dependencies:
           - ucx-proc=*=gpu
       - output_types: pyproject
         packages:
-          - &cupy_pip cupy-cuda11x>=12.0.0
+          - &cupy_pip cupy-cuda12x>=12.0.0
           - pylibcugraph==23.10.*
   python_run_pylibcugraph:
     common:
